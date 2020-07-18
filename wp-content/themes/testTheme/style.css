@@ -1,0 +1,135 @@
+/*
+Theme Name: testTheme
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: TERACHAI SITTILERT
+Author URI: https://www.facebook.com/terachai.sittilert/
+Description: This theme test for me
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+version: 1.0
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+    background-color: grey;
+    font-family: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #393939;
+    color: #fff;
+    padding: 20px 10px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+footer {
+    background: #393939;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.main {
+    margin: 15px 0;
+    float: left;
+    width: 68%;
+}
+
+.sidebar {
+    float: right;
+    width: 28%;
+}
+
+a {
+    color: #333;
+}
+
+article.post {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+article.post a.button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.meta {
+    background: #333;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.main-nav {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    list-style: none;
+    float: left;
+    padding-right: 15px;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.side_widget li {
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px #333 dotted;
+}
+
+.side_widget a {
+    text-decoration: none;
+}
+
+.side_widget ul {
+    margin: 0;
+    padding: 0;
+}
+
+.side_widget ul {
+    border: 1px solod #333;
+    margin-top: 20px
+}
